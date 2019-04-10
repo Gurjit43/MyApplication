@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fees"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/main_activity">
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FEES STATUS"
+        android:textAlignment="center"
+        android:padding="32dp"/>
+    <EditText
+        android:id="@+id/fees"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="FEES STATUS"
+        android:padding="20dp" />
+    <EditText
+        android:id="@+id/per"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PERIOD"
+        android:padding="20dp"/>
+    <EditText
+        android:id="@+id/secu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="SECURITY"
+        android:padding="20dp"/>
+
+    <EditText
+        android:id="@+id/acmd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ACADAMIC FEE"
+        android:padding="20dp"/>
+    <EditText
+        android:id="@+id/lbr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="LIBARAY FEE"
+        android:padding="20dp"/>
+    <EditText
+        android:id="@+id/mngm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="MANAGMENT FEE"
+        android:padding="20dp"/>
+    <EditText
+        android:id="@+id/exm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="EXAMINATION FEE"
+        android:padding="20dp"/>
+    <EditText
+        android:id="@+id/tuti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="TUTION FEE"
+        android:padding="20dp"/>
+
+    <EditText
+        android:id="@+id/fund"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="FUNDS"
+        android:padding="20dp" />
+    <EditText
+        android:id="@+id/tot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="TOTAL"
+        android:padding="20dp"/>
+    <Button
+        android:id="@+id/btn_procc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PAYMENT PROCEED"
+        android:padding="20dp"/>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

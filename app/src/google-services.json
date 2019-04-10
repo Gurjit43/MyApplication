@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "309259864065",
+    "firebase_url": "https://fees-managment.firebaseio.com",
+    "project_id": "fees-managment",
+    "storage_bucket": "fees-managment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309259864065:android:a6ded61791210052",
+        "android_client_info": {
+          "package_name": "com.example.gurjitkaur.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309259864065-kg740en2vm9qf2qelcu2t9tsi16dh1qd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gurjitkaur.application",
+            "certificate_hash": "ca953271f20b25a22bd09284179a37c4df27cd1e"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByJbPrIHUfc5zagfPV-xTj70MD4nOkIgY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "309259864065-6knqgua46g8kvq7on9js70qdfuoldf8h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
